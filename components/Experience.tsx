@@ -10,7 +10,7 @@ const Experience = (props: Props) => {
       </h2>
       <div className=' space-y-6 mt-2'>
         <div className=' space-y-2  print:border-none border white bg-opacity-40 rounded-lg p-2 print:p-0 '>
-          <h3 className='text-sm font-bold'>
+          <h3 className='text-sm font-bold dark:text-white'>
             <a href='https://www.powerkick.co.kr/' target='__blank'>
               PowerKick
             </a>
@@ -19,9 +19,9 @@ const Experience = (props: Props) => {
             <p className='text-sm'>Fullstack Developer</p>
             <p className='text-sm text-right'>Nov 2020 - Present</p>
           </div>
-          <div className='ml-1'>
+          <div className='ml-1 dark:text-white'>
             <div>
-              <p className='text-sm text-gray-900 font-bold'>
+              <p className='text-sm text-gray-900 font-bold dark:text-white'>
                 <a
                   href='https://c.powerkickcorp.com/'
                   target='_blank'
@@ -49,7 +49,7 @@ const Experience = (props: Props) => {
           {/* search  */}
           <div className='ml-1'>
             <div>
-              <p className='text-sm text-gray-900 font-bold'>
+              <p className='text-sm text-gray-900 font-bold dark:text-white'>
                 <a
                   href='https://la.powerkickcorp.com/'
                   target='_blank'
@@ -60,7 +60,7 @@ const Experience = (props: Props) => {
               </p>
             </div>
             <p className='text-sm'>
-              <div className=' space-y-1  list-disc'>
+              <div className=' space-y-1  list-disc dark:text-white'>
                 <p>VueJS logistic application to mange powerkick stations.</p>
                 <p>
                   Created easy to use interface swapping power banks, QR code
@@ -81,7 +81,7 @@ const Experience = (props: Props) => {
           {/* nft app */}
           <div className='ml-1'>
             <div>
-              <p className='text-sm text-gray-900 font-bold'>
+              <p className='text-sm text-gray-900 font-bold dark:text-white'>
                 <a
                   href='https://gallerychosun.valores.cc/'
                   target='_blank'
@@ -92,7 +92,7 @@ const Experience = (props: Props) => {
               </p>
             </div>
             <p className='text-sm'>
-              <div className=' space-y-1  list-disc'>
+              <div className=' space-y-1  list-disc dark:text-white'>
                 <p>NFT mint app for gallerychosun </p>
                 <p>
                   OpenSea api for minting panting, platform allows users to
@@ -104,26 +104,26 @@ const Experience = (props: Props) => {
         </div>
 
         <div className=' space-y-2 print:border-none border white bg-opacity-40 rounded-lg p-2 print:p-0 '>
-          <h3 className='text-sm font-bold'>
+          <h3 className='text-sm font-bold dark:text-gray-300'>
             <a href='https://we3academy.com/' target='__blank'>
               we3academy
             </a>
           </h3>
-          <div className='grid grid-cols-2 text-gray-600 dark:text-gray-400  font-semibold '>
-            <p className='text-sm'>Backend Developer</p>
+          <div className='grid grid-cols-2 text-gray-600 dark:text-gray-400  font-semibold  '>
+            <p className='text-sm dark:text-white'>Backend Developer</p>
             <p className='text-sm text-right'>Jan 2020 - Nov 2020</p>
           </div>
-          <p className='text-sm text-gray-600'>
+          <p className='text-sm text-gray-600 dark:text-white'>
             As a backend developer for a web portal for an education-based
             platform, using GraphQL, TypeScript, and MongoDB, my
             responsibilities may include:
           </p>
-          <p className='text-sm'>
+          <p className='text-sm dark:text-white'>
             Using GraphQL to design and implement a flexible and efficient data
             schema for the web portal, and to build GraphQL APIs to allow the
             frontend to retrieve and manipulate data from the server.
           </p>
-          <p className='text-sm'>
+          <p className='text-sm dark:text-white'>
             Collaborating with other team members to design and implement new
             features and functionality for the web portal, using a combination
             of GraphQL, TypeScript, and MongoDB to build high-quality solutions.
@@ -131,7 +131,7 @@ const Experience = (props: Props) => {
         </div>
         {/* chat */}
         <div className=' space-y-2 print:border-none border white bg-opacity-40 rounded-lg p-2 print:p-0 '>
-          <h3 className='text-sm font-bold'>
+          <h3 className='text-sm font-bold dark:text-white'>
             <a href='https://web.tuktuapi.com/' target='__blank'>
               Tuktu
             </a>
@@ -141,7 +141,7 @@ const Experience = (props: Props) => {
             <p className='text-sm text-right'>Mar 2019 - Dec 2020</p>
           </div>
           <p className='text-sm'>
-            <div className=' space-y-1'>
+            <div className=' space-y-1 dark:text-white'>
               <p>Ported react native application to web interface</p>
               <p>
                 web based application allows users to book demand support
@@ -151,7 +151,7 @@ const Experience = (props: Props) => {
           </p>
         </div>
         <div className=' space-y-1 print:border-none border white bg-opacity-40 rounded-lg p-2 print:p-0 '>
-          <h3 className='text-sm font-bold'>
+          <h3 className='text-sm font-bold dark:text-white'>
             <a href='https://marketxls.com/' target='__blank'>
               marketxls (Intern)
             </a>
@@ -160,10 +160,10 @@ const Experience = (props: Props) => {
             <p className='text-sm'>Software Developer</p>
             {/* <p className='text-sm text-right'>Nov 2014 - Nov 2015</p> */}
           </div>
-          <p className='text-sm'>
+          <p className='text-sm dark:text-white'>
             The project involved creating portfolio pages for S&P 500 companies.
           </p>
-          <p className='text-sm'>
+          <p className='text-sm dark:text-white'>
             The project used Gatsby framework to generate static pages for the
             companies.
           </p>

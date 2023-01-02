@@ -11,64 +11,46 @@ function TechStack({}: Props) {
       </h2>
       <div className=' space-y-3 mt-2'>
         <div>
-          <h3 className='text-sm font-bold'>Languages</h3>
+          <h3 className='text-sm font-bold dark:text-gray-300'>Languages</h3>
           <div className='flex flex-wrap text-xs'>
             <span className='px-1 py-1 '>
-              <span className='bg-gray-50 dark:bg-slate-800 px-1 py-0.5 rounded-lg bg-opacity-50'>
-                Javascript
-              </span>
+              <Skills name='Javascript' />
             </span>
             <span className='px-1 py-1 '>
-              <span className='bg-gray-50 dark:bg-slate-800 px-1 py-0.5 rounded-lg bg-opacity-50'>
-                Typescript
-              </span>
+              <Skills name='Typescript' />
             </span>
             <span className='px-1 py-1 '>
-              <span className='bg-gray-50 dark:bg-slate-800 px-1 py-0.5 rounded-lg bg-opacity-50'>
-                Go
-              </span>
+              <Skills name='GO' />
             </span>
 
             <span className='px-1 py-1 '>
-              <span className='bg-gray-50 dark:bg-slate-800 px-1 py-0.5 rounded-lg bg-opacity-50'>
-                SQL
-              </span>
+              <Skills name='SQL' />
             </span>
           </div>
         </div>
         <div>
-          <h3 className='text-sm font-bold'>Frontend</h3>
+          <h3 className='text-sm font-bold dark:text-gray-300'>Frontend</h3>
           <div className='flex flex-wrap text-xs'>
             <span className='px-1 py-1 '>
-              <span className='bg-gray-50 dark:bg-slate-800 px-1 py-0.5 rounded-lg bg-opacity-50'>
-                HTML
-              </span>
+              <Skills name='HTML' />
             </span>
             <span className='px-1 py-1 '>
-              <span className='bg-gray-50 dark:bg-slate-800 px-1 py-0.5 rounded-lg bg-opacity-50'>
-                CSS
-              </span>
+              <Skills name='CSS' />
             </span>
             <span className='px-1 py-1 '>
-              <span className='bg-gray-50 dark:bg-slate-800 px-1 py-0.5 rounded-lg bg-opacity-50'>
-                React
-              </span>
+              <Skills name='React.JS' />
             </span>
 
             <span className='px-1 py-1 '>
-              <span className='bg-gray-50 dark:bg-slate-800 px-1 py-0.5 rounded-lg bg-opacity-50'>
-                Vue.Js
-              </span>
+              <Skills name='Vue.Js' />
             </span>
             <span className='px-1 py-1 '>
-              <span className='bg-gray-50 dark:bg-slate-800 px-1 py-0.5 rounded-lg bg-opacity-50'>
-                Tailwind css
-              </span>
+              <Skills name='Tailwind css ' />
             </span>
           </div>
         </div>
         <div>
-          <h3 className='text-sm font-bold'>Backend</h3>
+          <h3 className='text-sm font-bold dark:text-gray-300'>Backend</h3>
           <div className='flex flex-wrap text-xs'>
             <span className='px-1 py-1 '>
               <Skills name='Node.JS' />
@@ -91,7 +73,7 @@ function TechStack({}: Props) {
           </div>
         </div>
         <div>
-          <h3 className='text-sm font-bold'>Frameworks</h3>
+          <h3 className='text-sm font-bold dark:text-gray-300'>Frameworks</h3>
           <div className='flex flex-wrap text-xs'>
             <span className='px-1 py-1 '>
               <Skills name='Express' />

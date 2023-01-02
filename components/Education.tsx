@@ -10,7 +10,9 @@ const Education = (props: Props) => {
       </h2>
       <div className=' space-y-6 mt-2'>
         <div>
-          <h3 className='text-sm font-bold '>BE in information technology</h3>
+          <h3 className='text-sm font-bold dark:text-gray-300 '>
+            BE in information technology
+          </h3>
           <div className=' text-gray-600 dark:text-gray-400  '>
             <p className='text-sm'>
               {' '}

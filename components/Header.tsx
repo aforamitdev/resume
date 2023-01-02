@@ -5,10 +5,12 @@ type Props = {};
 function Header({}: Props) {
   return (
     <header className='px-4 py-2  border-b relative space-y-2'>
-      <h1 className='text-2xl font-bold uppercase  '>Amit Rai</h1>
+      <h1 className='text-2xl font-bold uppercase dark:text-white '>
+        Amit Rai
+      </h1>
       <div className='space-y-3'>
-        <p className=' font-semibold'>Fullstack Developer.</p>
-        <div className='flex flex-col space-y-2 md:space-y-0 md:flex-row md:space-x-4 text-xs font-medium'>
+        <p className=' font-semibold dark:text-white'>Fullstack Developer.</p>
+        <div className='flex flex-col space-y-2 md:space-y-0 md:flex-row md:space-x-4 text-xs font-medium dark:text-white'>
           <a href='mailto:aforamitrai@gmail.com' className='flex gap-1'>
             <span className='flex'>
               <svg
